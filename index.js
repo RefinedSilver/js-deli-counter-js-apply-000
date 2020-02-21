@@ -10,12 +10,13 @@ function nowServing (currentLine) {
 	let i = 0;
 	let currServ = () => ('Currently serving ' + currentLine[i]+'.');
 
-	if (!currentLine.length === 0) {
+	if (!currentLine.length) {
 		return "There is nobody waiting to be served!"
 	} else {
 		return currServ();
 	}
 }
+
 function currentLine(currentLine) {
 	let currPos = 0;
 
