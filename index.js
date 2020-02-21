@@ -1,5 +1,5 @@
 function takeANumber(currentLine, custName) {
-  let nextInLine = [];
+  currentLine.push(custName);
 
   nextInLine.push(`Welcome, ${custName}. You are number ${currentLine.length} in line.`);
 
