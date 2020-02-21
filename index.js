@@ -1,7 +1,7 @@
 function takeANumber(currentLine, custName) {
   currentLine.push(custName);
 
-  nextInLine.push(`Welcome, ${custName}. You are number ${currentLine.length} in line.`);
+  let nextInLine = [(`Welcome, ${custName}. You are number ${currentLine.length} in line.`);]
 
   return nextInLine;
 }
