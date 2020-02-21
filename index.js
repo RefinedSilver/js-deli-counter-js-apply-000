@@ -1,12 +1,8 @@
 function takeANumber(currentLine, custName) {
+  let nextInLine = [];
 
-  let nextInLine = [(`Welcome, ${currentLine[0]}. You are number ${count++} in line.`)];
-
-
-    nextInLine.push(`Welcome, ${currentLine[i+1]}. You are number ${count++} in line.`);
-
-
-  return nextInLine;
+  nextInLine.push(`Welcome, ${custName}. You are number ${currentLine.length} in line.`);
+    return nextInLine;
 }
 
 function nowServing (currentLine) {
