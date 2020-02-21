@@ -7,8 +7,7 @@ function takeANumber(currentLine, custName) {
 }
 
 function nowServing (currentLine) {
-	let i = 0;
-	let currServ = () => ('Currently serving ' + currentLine.shift());
+  let currServ = () => ('Currently serving ' + currentLine.shift());
 
 	if (!currentLine.length) {
 		return "There is nobody waiting to be served!"
