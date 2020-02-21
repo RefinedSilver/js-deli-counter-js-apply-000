@@ -1,14 +1,13 @@
-function takeANumber(currentLine) {
-  let count = 1;
+function takeANumber(currentLine, custName) {
+
   let nextInLine = [(`Welcome, ${currentLine[0]}. You are number ${count++} in line.`)];
 
-  for (let i = 0; i < currentLine.length ; i++){
+
     nextInLine.push(`Welcome, ${currentLine[i+1]}. You are number ${count++} in line.`);
-  }
+
 
   return nextInLine;
 }
-console.log(takeANumber(customers));
 
 function nowServing (currentLine) {
 	let pastServ = [];
